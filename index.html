@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Audacto — The offline player for music you own</title>
+  <meta name="description" content="Audacto is an offline audio player for iPhone and iPad. Import the files you own, organize them into a private library, and shape every track with a 31-band graphic EQ and an eight-filter parametric EQ. No account, no analytics.">
+  <meta name="theme-color" content="#010403">
+  <link rel="canonical" href="https://audacto.master-tempo.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Audacto — The offline player for music you own">
+  <meta property="og:description" content="A private library for your own audio files, with a 31-band graphic EQ, an eight-filter parametric EQ and thirteen Now Playing views. No account, no analytics.">
+  <meta property="og:url" content="https://audacto.master-tempo.com/">
+  <meta property="og:image" content="https://audacto.master-tempo.com/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Audacto home">
+        <img src="/assets/img/icon.webp" alt="" width="34" height="34">
+        <span>Audacto</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li class="nav-optional"><a href="#library">Library</a></li>
+          <li class="nav-optional"><a href="#equalizer">Equalizer</a></li>
+          <li><a href="/privacy.html">Privacy</a></li>
+          <li><a href="/support/">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow mono" data-rise="1">Offline audio player · iPhone &amp; iPad</p>
+          <h1 id="hero-title" data-rise="2">Your music,<br><em>kept quiet.</em></h1>
+          <p class="lede" data-rise="3">
+            Audacto plays the audio files <strong>you own</strong>: no account, no analytics, no streaming catalogue
+            and no connection required. Import your files, keep them in a private library, and shape every track
+            with precision equalizers.
+          </p>
+          <div class="availability" data-rise="4">
+            <span class="pill"><span class="dot" aria-hidden="true"></span>Coming to iPhone and iPad</span>
+            <span class="mono">Requires iOS 18 or later</span>
+          </div>
+        </div>
+
+        <figure class="monitor" data-rise="5" aria-label="Illustration of the Audacto post-EQ monitor">
+          <div class="monitor-head">
+            <span class="mono">Post-EQ monitor</span>
+            <span class="mono live">Live</span>
+          </div>
+          <div class="monitor-screen">
+            <canvas data-monitor aria-hidden="true"></canvas>
+          </div>
+          <figcaption class="monitor-foot">
+            <span class="mono">31 bands · 20 Hz–20 kHz</span>
+            <span class="mono">FLAC · 48 kHz</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="spec-strip" aria-label="At a glance">
+      <ul class="wrap">
+        <li><b>Offline</b><span class="mono">by design</span></li>
+        <li><b>0</b><span class="mono">accounts</span></li>
+        <li><b>0</b><span class="mono">analytics SDKs</span></li>
+        <li><b>31</b><span class="mono">graphic EQ bands</span></li>
+        <li><b>8</b><span class="mono">parametric filters</span></li>
+        <li><b>13</b><span class="mono">Now Playing views</span></li>
+      </ul>
+    </section>
+
+    <section class="section" id="library" aria-labelledby="library-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index mono">01 — Library</p>
+          <div>
+            <h2 id="library-title">A library that belongs to <em>the listener.</em></h2>
+            <p>Audacto treats local files as a first-class music library. It's useful on its own, with no streaming service behind it.</p>
+          </div>
+        </header>
+
+        <div class="cols reveal">
+          <article class="col">
+            <p class="mono">Import</p>
+            <h3>Bring what you own.</h3>
+            <ul>
+              <li>Files and whole folders from the Files app</li>
+              <li>Downloaded, unprotected tracks from the Music app</li>
+              <li>The share sheet and “Open in Audacto”</li>
+              <li>Finder drag-and-drop over USB</li>
+            </ul>
+          </article>
+          <article class="col">
+            <p class="mono">Organize</p>
+            <h3>Songs, albums, playlists.</h3>
+            <ul>
+              <li>One search across title, artist and album</li>
+              <li>Playlists and rule-based smart playlists</li>
+              <li>M3U playlist import and export</li>
+              <li>Ratings and custom artwork</li>
+            </ul>
+          </article>
+          <article class="col">
+            <p class="mono">Keep</p>
+            <h3>Built to last.</h3>
+            <ul>
+              <li>Files copied into the app's private storage</li>
+              <li>Automatic library backups you can restore</li>
+              <li>Missing-file checks with a careful cleanup</li>
+              <li>A library that survives a device restore</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="formats reveal" aria-label="Supported formats">
+          <span class="mono">Plays</span>
+          <code>MP3</code><code>AAC</code><code>M4A</code><code>FLAC</code><code>WAV</code><code>AIFF</code><code>CAF</code>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="equalizer" aria-labelledby="eq-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index mono">02 — Equalizer</p>
+          <div>
+            <h2 id="eq-title">Shape it, <em>precisely.</em></h2>
+            <p>Two equalizers, one signal path. Make broad strokes with the graphic EQ, fine corrections with the parametric EQ, and watch the result on a live post-EQ spectrum.</p>
+          </div>
+        </header>
+
+        <div class="eq-grid">
+          <div class="eq-facts reveal">
+            <div class="fact">
+              <b>31</b>
+              <h3>Graphic EQ</h3>
+              <p>Third-octave bands from 20 Hz to 20 kHz.</p>
+            </div>
+            <div class="fact">
+              <b>8</b>
+              <h3>Parametric EQ</h3>
+              <p>A low shelf, six bells and a high shelf, each with its own frequency and gain, plus Q on every bell.</p>
+            </div>
+            <div class="fact">
+              <b>In / Out</b>
+              <h3>Presets</h3>
+              <p>Save, rename and switch presets, and import or export them as files.</p>
+            </div>
+          </div>
+
+          <div class="eq-demo reveal">
+            <div class="eq-demo-head">
+              <span class="mono">Try it · four bells</span>
+              <button class="eq-reset mono" type="button" data-eq-reset>Reset</button>
+            </div>
+            <div class="eq-stage" data-eq>
+              <canvas aria-hidden="true"></canvas>
+              <button class="eq-handle" type="button" data-band="1" aria-describedby="eq-hint"></button>
+              <button class="eq-handle" type="button" data-band="2" aria-describedby="eq-hint"></button>
+              <button class="eq-handle" type="button" data-band="3" aria-describedby="eq-hint"></button>
+              <button class="eq-handle" type="button" data-band="4" aria-describedby="eq-hint"></button>
+            </div>
+            <ul class="eq-readout" data-eq-readout aria-live="polite">
+              <li></li><li></li><li></li><li></li>
+            </ul>
+            <p class="eq-hint" id="eq-hint">Drag a filter. With the keyboard, arrows move frequency and gain, Shift takes bigger steps, and Page Up/Down changes Q. The magenta line is the response reflection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="now-playing" aria-labelledby="viz-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index mono">03 — Now Playing</p>
+          <div>
+            <h2 id="viz-title">Thirteen ways to <em>watch it play.</em></h2>
+            <p>Song Cover shows the track's artwork by default. Twelve live visualizers follow the real playback level after the EQ, and any of them can fill the screen as a projector.</p>
+          </div>
+        </header>
+
+        <ul class="viz-grid reveal">
+          <li><figure><img src="/assets/img/viz-equalizer.webp" alt="Equalizer visualizer: mirrored teal-to-violet bars across 31 bands" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Equalizer</span><span class="mono">02</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-polar-bloom.webp" alt="Polar Bloom visualizer: a teal ring whose outline swells with the signal" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Polar Bloom</span><span class="mono">06</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-spectral-bloom.webp" alt="Spectral Bloom visualizer: a soft multicolour ring" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Spectral Bloom</span><span class="mono">05</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-waveform-spectrum.webp" alt="Waveform and spectrum visualizer with labelled axes" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Waveform / Spectrum</span><span class="mono">13</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-orbital-rings.webp" alt="Orbital Rings visualizer: concentric violet rings" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Orbital Rings</span><span class="mono">09</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-wireframe.webp" alt="Wireframe visualizer: rotating outlined squares" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Wireframe</span><span class="mono">10</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-lattice-dots.webp" alt="Lattice Dots visualizer: a grid of blue dots" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Lattice Dots</span><span class="mono">07</span></figcaption></figure></li>
+          <li><figure><img src="/assets/img/viz-luminous-orbit.webp" alt="Luminous Orbit visualizer: a glowing gradient loop" width="720" height="554" loading="lazy" decoding="async"><figcaption><span class="mono">Luminous Orbit</span><span class="mono">04</span></figcaption></figure></li>
+        </ul>
+        <p class="viz-note mono reveal">Captured from the app on iPhone</p>
+      </div>
+    </section>
+
+    <section class="section" id="playback" aria-labelledby="playback-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index mono">04 — Playback</p>
+          <div>
+            <h2 id="playback-title">Controls you can <em>trust.</em></h2>
+            <p>Transport stays immediate, even while you browse the library.</p>
+          </div>
+        </header>
+        <dl class="spec-table reveal">
+          <div><dt class="mono">Transitions</dt><dd><strong>Gapless</strong>, or a crossfade from 1 to 12 seconds.</dd></div>
+          <div><dt class="mono">Speed</dt><dd>From <strong>0.5×</strong> to <strong>3×</strong>.</dd></div>
+          <div><dt class="mono">Sleep timer</dt><dd>At the end of the track, or after 5 to 90 minutes.</dd></div>
+          <div><dt class="mono">Queue</dt><dd>Play Next, Add to End, shuffle and repeat.</dd></div>
+          <div><dt class="mono">Background</dt><dd>Keeps playing in the background, with Lock Screen and Control Center controls.</dd></div>
+          <div><dt class="mono">Get Info</dt><dd>Format, sample rate, bit depth, bitrate and channels for every track.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="statement" aria-labelledby="privacy-title">
+      <div class="wrap">
+        <p class="mono reveal">05 — Privacy</p>
+        <h2 id="privacy-title" class="reveal">Nothing to <em>collect.</em></h2>
+        <p class="reveal">Audacto has no account, no analytics, no advertising and no networking features. Your library, playlists, presets and settings stay in the app's private storage on your device.</p>
+        <a class="statement-link reveal" href="/privacy.html">Read the privacy policy</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="a11y-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index mono">06 — Accessibility</p>
+          <div>
+            <h2 id="a11y-title">A release requirement, <em>not a setting.</em></h2>
+          </div>
+        </header>
+        <ul class="a11y-list reveal">
+          <li><b>Dynamic Type</b>Up to the largest accessibility sizes.</li>
+          <li><b>VoiceOver</b>Labels and values on every control.</li>
+          <li><b>Reduce Motion</b>Animation follows your setting.</li>
+          <li><b>Increase Contrast</b>High-contrast colour variants.</li>
+          <li><b>44-point targets</b>For every essential control.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Audacto. All rights reserved.</span>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="https://master-tempo.com/">Master Tempo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Support — Audacto</title>
+  <meta name="description" content="Help with Audacto: importing music, supported formats, equalizer presets, backups and missing files. Contact support@master-tempo.com.">
+  <meta name="theme-color" content="#010403">
+  <link rel="canonical" href="https://audacto.master-tempo.com/support/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Audacto home">
+        <img src="/assets/img/icon.webp" alt="" width="34" height="34">
+        <span>Audacto</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/privacy.html">Privacy</a></li>
+          <li><a href="/support/" aria-current="page">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="doc-hero">
+      <div class="wrap">
+        <p class="eyebrow mono">Support</p>
+        <h1>How can we <em>help?</em></h1>
+        <p>Answers to common questions about importing, playback, the equalizers and keeping your library safe.</p>
+      </div>
+    </section>
+
+    <div class="wrap doc">
+      <nav class="doc-toc" aria-label="On this page">
+        <ol>
+          <li><a href="#import">Importing music</a></li>
+          <li><a href="#library">Your library</a></li>
+          <li><a href="#playback">Playback &amp; EQ</a></li>
+          <li><a href="#requirements">Requirements</a></li>
+        </ol>
+      </nav>
+
+      <div class="doc-body">
+        <div class="contact-card">
+          <div>
+            <h2>Contact support</h2>
+            <p>Include your device model and iOS version, and what you were doing when the problem happened.</p>
+          </div>
+          <a class="button" href="mailto:support@master-tempo.com?subject=Audacto%20support">Email support@master-tempo.com</a>
+        </div>
+
+        <section>
+          <h2 id="import"><span class="mono">01</span>Importing music</h2>
+
+          <details class="faq">
+            <summary>How do I add music?</summary>
+            <div>
+              <p>Tap <strong>Import</strong> in Library and choose <strong>From Files</strong> to pick files or whole folders, or <strong>From Apple Music</strong> to pick tracks from the Music app.</p>
+              <p>You can also share an audio file to Audacto from another app, open it with “Open in Audacto”, or drag files into Audacto's folder in Finder with your device connected over USB. Audacto imports them the next time it opens.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>Which formats are supported?</summary>
+            <div>
+              <p>MP3, AAC and M4A, FLAC, WAV, AIFF and CAF.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>Why were some Apple Music tracks not imported?</summary>
+            <div>
+              <p>Audacto can only import music you own that is downloaded to your device. Copy-protected tracks, such as songs available through an Apple Music subscription, and tracks that aren't downloaded can't be imported. The import summary lists them by title so you can see what was skipped.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>What happens to duplicates?</summary>
+            <div>
+              <p>Audacto recognizes a file it already has and reports it as already in your library instead of adding it twice.</p>
+            </div>
+          </details>
+        </section>
+
+        <section>
+          <h2 id="library"><span class="mono">02</span>Your library</h2>
+
+          <details class="faq">
+            <summary>Where are my files stored?</summary>
+            <div>
+              <p>Imported files are copied into Audacto's private storage on your device, so your library keeps working even if you move or delete the originals. Nothing is uploaded anywhere.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>How do backups work?</summary>
+            <div>
+              <p>Audacto regularly saves a backup of your library information, such as playlists, ratings and track details, on your device. You can see when the last backup was made in <strong>Settings → Library &amp; Storage</strong>.</p>
+              <p>If your library ever can't be opened, Audacto offers <strong>Retry Open</strong> and, when a usable backup exists, <strong>Restore Backup</strong>. Restoring replaces library information with the backup. Your audio and artwork files are kept, but a backup can't bring back files that were deleted.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>A track shows as missing. What can I do?</summary>
+            <div>
+              <p>A warning icon means the track's file is no longer in Audacto's storage. Open <strong>Settings → Library &amp; Storage</strong> and tap <strong>Recheck Library</strong> to update the counts. <strong>Remove Missing Entries</strong> deletes those entries and their playlist references after you confirm; files that are still present are kept.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>Can I move playlists in or out?</summary>
+            <div>
+              <p>Yes. Use <strong>Import Playlist</strong> on the Playlists screen to bring in an M3U file, and <strong>Export Playlist</strong> on a playlist's own screen to save it as M3U.</p>
+            </div>
+          </details>
+        </section>
+
+        <section>
+          <h2 id="playback"><span class="mono">03</span>Playback &amp; EQ</h2>
+
+          <details class="faq">
+            <summary>What's the difference between the two equalizers?</summary>
+            <div>
+              <p>The <strong>Graphic EQ</strong> has 31 fixed bands from 20 Hz to 20 kHz for broad tonal shaping. The <strong>Parametric EQ</strong> has eight filters (a low shelf, six bells and a high shelf), each with adjustable frequency and gain, plus Q on the bells, for precise corrections. A live spectrum shows the result after the EQ.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>Can I share or back up my EQ presets?</summary>
+            <div>
+              <p>Yes. In <strong>Manage Presets</strong> you can save, rename and delete presets, and import or export them as files.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>How do I turn off crossfade?</summary>
+            <div>
+              <p>In Settings, choose <strong>Gapless</strong> as the transition. Crossfade can be set anywhere from 1 to 12 seconds.</p>
+            </div>
+          </details>
+
+          <details class="faq">
+            <summary>Can I use Audacto with larger text or VoiceOver?</summary>
+            <div>
+              <p>Yes. Audacto supports Dynamic Type up to the largest accessibility sizes, VoiceOver, Reduce Motion and Increase Contrast. If something is hard to use with an accessibility setting, please tell us. We treat it as a bug.</p>
+            </div>
+          </details>
+        </section>
+
+        <section>
+          <h2 id="requirements"><span class="mono">04</span>Requirements</h2>
+          <p>Audacto runs on iPhone and iPad with iOS 18 or later. It works fully offline and doesn't need an account.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Audacto. All rights reserved.</span>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href="https://master-tempo.com/">Master Tempo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
